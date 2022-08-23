@@ -1,16 +1,16 @@
 package com.sonata.Test;
-import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
+//import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import com.sonata.Impl.EmpImpl;
 import com.sonata.Model.Employee;
 public class EmplSalTest{
-@Test
+//@Test
 public void addTest(){
 	Employee es= new Employee();
 	EmpImpl e= new EmpImpl();
 	es.setEmpSal(100);
-	Assertions.assertEquals(1200,e.yearlySal(es));
+	assertEquals(1200,e.yearlySal(es));
 }
 
 
