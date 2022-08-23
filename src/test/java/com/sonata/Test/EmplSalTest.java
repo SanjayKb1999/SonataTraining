@@ -1,5 +1,6 @@
 package com.sonata.Test;
 import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Assertions;
 
 import com.sonata.Impl.EmpImpl;
