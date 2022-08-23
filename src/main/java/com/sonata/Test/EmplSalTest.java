@@ -12,27 +12,6 @@ public void addTest(){
 	es.setEmpSal(100);
 	Assertions.assertEquals(1200,e.yearlySal(es));
 }
-@Test
-public void addTest2(){
-	Employee es= new Employee();
-	EmpImpl e= new EmpImpl();
-	es.setEmpSal(2000);
-	Assertions.assertEquals(24000,e.yearlySal(es));
-}
-@Test
-public void addTest3(){
-	Employee es= new Employee();
-	EmpImpl e= new EmpImpl();
-	es.setEmpSal(1000);
-	Assertions.assertEquals(12000,e.yearlySal(es));
-}
-@Test
-public void addTest4(){
-	Employee es= new Employee();
-	EmpImpl e= new EmpImpl();
-	es.setEmpSal(2000);
-	Assertions.assertEquals(12000,e.yearlySal(es));
-}
 
 
 }
