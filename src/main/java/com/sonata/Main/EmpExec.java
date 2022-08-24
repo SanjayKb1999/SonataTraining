@@ -3,7 +3,7 @@ import com.sonata.Model.Employee;
 import com.sonata.Impl.EmpImpl;
 
 public class EmpExec {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 	Employee e1 = new Employee();
 	e1.setEmpID(123);
 	e1.setEmpName("sanjay");
