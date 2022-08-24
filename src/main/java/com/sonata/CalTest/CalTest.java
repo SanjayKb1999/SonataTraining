@@ -6,10 +6,9 @@ import com.sonata.Calculator.Calculator;
 
 public class CalTest {
 	
-	    public void addTest5() {
+	    public void divTest() {
 	    	Calculator c1 = new Calculator();
-	    	
-	    assertThrows(ArithmeticException.class,()->c1.div(10,0),"it is an error");
+	    	assertThrows(ArithmeticException.class,()->c1.div(10,0),"it is an error");
 	    
 	    }
 }
