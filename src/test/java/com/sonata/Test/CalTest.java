@@ -1,4 +1,4 @@
-package com.sonata.CalTest;
+package com.sonata.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.sonata.Calculator.Calculator;
