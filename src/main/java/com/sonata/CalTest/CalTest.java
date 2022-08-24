@@ -6,7 +6,6 @@ import com.sonata.Calculator.Calculator;
 
 public class CalTest {
 	
-	Calculator c= new Calculator();
 	    public void addTest5() {
 	    	Calculator c1 = new Calculator();
 	    	
