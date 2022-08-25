@@ -1,4 +1,4 @@
-package com.sonata.Model;
+package com.sonata.model;
 
 public class Employee {
 	private int empID;

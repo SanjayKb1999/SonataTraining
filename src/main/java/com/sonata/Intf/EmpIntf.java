@@ -1,5 +1,5 @@
 package com.sonata.intf;
-import com.sonata.Model.Employee;
+import com.sonata.model.Employee;
 
 public interface EmpIntf {
 	    public double yearlySal(Employee e1);
