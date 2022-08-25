@@ -1,6 +1,6 @@
-package com.sonata.Main;
+package com.sonata.main;
 import com.sonata.Model.Employee;
-import com.sonata.Impl.EmpImpl;
+import com.sonata.impl.EmpImpl;
 
 public class EmpExec {
 	public static void main(String[] args) {

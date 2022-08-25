@@ -1,6 +1,6 @@
-package com.sonata.Impl;
-import com.sonata.Intf.EmpIntf;
+package com.sonata.impl;
 import com.sonata.Model.Employee;
+import com.sonata.intf.EmpIntf;
 
 public class EmpImpl implements EmpIntf{
 

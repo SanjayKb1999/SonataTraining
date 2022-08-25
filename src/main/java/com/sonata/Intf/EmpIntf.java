@@ -1,4 +1,4 @@
-package com.sonata.Intf;
+package com.sonata.intf;
 import com.sonata.Model.Employee;
 
 public interface EmpIntf {

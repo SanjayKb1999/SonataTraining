@@ -3,8 +3,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.sonata.Impl.EmpImpl;
 import com.sonata.Model.Employee;
+import com.sonata.impl.EmpImpl;
  class EmplSalTest{
 @Test
  void addTest(){

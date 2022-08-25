@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-import com.sonata.Calculator.Calculator;
+import com.sonata.calculator.Calculator;
 
 
  class CalTest {
