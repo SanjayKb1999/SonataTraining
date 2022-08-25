@@ -8,7 +8,7 @@ import com.sonata.Calculator.Calculator;
 
  class CalTest {
 	@Test
-	    public void divTest() {
+	   void divTest() {
 	    	Calculator c1 = new Calculator();
 	    	assertThrows(ArithmeticException.class,()->c1.div(10,0),"it is an error");
 	    
